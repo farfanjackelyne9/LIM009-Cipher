@@ -1,1 +1,20 @@
 /* Acá va tu código */
+.none{
+  display:none;
+}
+body{
+  background: #B0C4DE;
+}
+h1 {
+  color: black;
+  background-color: #FFFFE0;
+  border: 1px solid black;
+  text-align: center;
+  margin:50px;
+  padding:20px 10px;
+  width:500px;
+}
+p {
+  color: black;
+  font-size: 40px;
+}
