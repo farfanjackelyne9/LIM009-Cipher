@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+  <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,33 +7,37 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+
     <div id="pagina1">
-      <h1>BIENVENIDA</h1>
-      <p><strong>*Con este programa podras enviar cualquier mensaje al exterior sin preocupaciones.</strong></p>
-      <p><strong>*Tus datos permaneceran anonimos solo tú y la persona con la que se contacte sabran el significado del mensaje.</strong></p>
-      <p><strong>*Si estas de acuerdo dale </strong></p>
+      <h1>SafeMessage</h1>
+      <p><strong>Con este programa podras cifrar y descifrar cualquier mensaje que desees.</strong></p>
+      <p><strong>Solo tú y la persona con quien compartas el mensaje sabran el desplazamiento del cifrado o descifrado.</strong></p>
+      <p><strong>Tendras una opcion para copiar el mensaje.</strong></p>
+      <p><strong>Si deseas seguir</strong></p>
       <button id="btningresar" ><strong>Click aquí</strong></button>
     </div>
-    <div id="pagina2" class="none"><h1>¿Cuántos caracteres deseas desplazar?</h1> <input id="number" type="text">
-      <div id="cifrado"><h2>TEXTO CIFRADO</h2><p>Escribe aqui el mensaje que deseas cifrar.</p>
+
+    <div id="pagina2" class="none"><h2>¿Cuántos caracteres deseas desplazar?</h2> <input id="number" type="text">
+      <div id="caja1"><h2>TEXTO DESCIFRADO</h2><p>Escribe aqui el mensaje que deseas cifrar.</p>
+        <textarea id="descifrado"
+                  rows="10"
+                  cols="50"
+                  placeholder="Texto aquí"></textarea>
+        <button id="btncifrar" >CIFRAR</button>
+        <button id="copy1" >COPIAR</button>
+      </div>
+
+      <div id="caja2"><h2>TEXTO DESCIFRADO</h2><p>Escribe aqui el mensaje que deseas descifrar.</p>
        <textarea id="cifrado"
                   rows="10"
                   cols="50"
                   placeholder="Texto aquí"></textarea>
-       <button id="next1" >CIFRAR</button>
-
-       <button id="copy1" >COPIAR</button>
-     </div>
-      <div id="descrifrado"><h2>TEXTO DESCIFRADO</h2><p>Escribe aqui el mensaje que deseas decifrar.</p>
-       <textarea id="cifrado"
-                  rows="10"
-                  cols="50"
-                  placeholder="Texto aquí"></textarea>
-       <button id="next2" >DECIFRAR</button>
-
+       <button id="btndescifrar" >DECIFRAR</button>
        <button id="copy2" >COPIAR</button>
      </div>
+
    </div>
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

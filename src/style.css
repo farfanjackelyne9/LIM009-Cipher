@@ -1,20 +1,50 @@
 /* Acá va tu código */
+*{
+		font-family:"Roboto";
+		color: #F4F4F4;
+		font-weight:300;
+  }
 .none{
   display:none;
 }
 body{
-  background: #B0C4DE;
+  background: url(https://images3.alphacoders.com/774/774119.jpg);
 }
 h1 {
-  color: black;
-  background-color: #FFFFE0;
-  border: 1px solid black;
-  text-align: center;
-  margin:50px;
-  padding:20px 10px;
-  width:500px;
+  font-size: 50px;
+  font-family: 'Alfa Slab One', 'Fascinate Inline', cursive;
+	color: #ecf0f1;
+	text-align: center;
+  margin: 5rem 0 3rem 0;
 }
 p {
-  color: black;
-  font-size: 40px;
+  color: white;
+  font-size: 30px;
+  font-family:"Roboto Slab";
+}
+button{
+  background-color:black;
+   color:white;
+   margin:20px;
+   padding:10px 10px;
+   border-radius:10px;
+   width:200px;
+}
+#number{
+  background-color: #F0F8FF;
+  color:black;
+  border-radius:10px;
+  padding:10px 10px;
+  width:250px;
+}
+textarea{
+  background-color: #F0F8FF;
+  color:black;
+  border-radius:10px;
+  padding:10px 10px;
+  width:250px;
+}
+h3{
+  padding: 20px 20px;
+  font-size: 20px;
 }
