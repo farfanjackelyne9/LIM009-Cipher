@@ -19,7 +19,7 @@ h1 {
 }
 p {
   color: white;
-  font-size: 30px;
+  font-size: 25px;
   font-family:"Roboto Slab";
 }
 button{
@@ -45,6 +45,5 @@ textarea{
   width:250px;
 }
 h3{
-  padding: 20px 20px;
-  font-size: 20px;
+   font-size: 20px;
 }

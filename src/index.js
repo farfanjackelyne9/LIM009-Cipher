@@ -9,17 +9,18 @@ let textoDescifrado;
 let desplazamiento;
 let textoCifrado;
 
+
 document.getElementById('btncifrar').addEventListener("click",()=>{
 textoDescifrado=document.getElementById('descifrado').value;
 desplazamiento=parseInt(document.getElementById('number').value);
 resultadoCifrado=cipher.encode(textoDescifrado,desplazamiento);
-document.getElementById('cifrado').value= resultadoCifrado;
+document.getElementById('cifrado').value= resultadoCifrado.trim();
 })
 
 document.getElementById('btndescifrar').addEventListener("click",()=>{
 textoCifrado=document.getElementById('cifrado').value;
 desplazamiento=parseInt(document.getElementById('number').value);
 resultadoDescifrado=cipher.decode(textoCifrado,desplazamiento);
-document.getElementById('descifrado').value=resultadoDescifrado;
+document.getElementById('descifrado').value=resultadoDescifrado.trim();
 
 })

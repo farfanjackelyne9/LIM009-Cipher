@@ -30,8 +30,8 @@ window.cipher = {
         }  while (nuevoNumero < 0){
           nuevoNumero=nuevoNumero + 26;
           }
-          nuevoNumeroCifrado=nuevoNumero%26+65
-          console.log(nuevoResultadoDescifrado=String.fromCharCode(nuevoNumeroCifrado))
+          nuevoNumeroCifrado = nuevoNumero % 26 + 65;
+          console.log(nuevoResultadoDescifrado=String.fromCharCode(nuevoNumeroCifrado));
           resultadoDescifrado += nuevoResultadoDescifrado;
      }
     return resultadoDescifrado;
