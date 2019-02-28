@@ -1,4 +1,6 @@
 /* Acá va tu código */
+let pagina1;
+let pagina2;
 const btningresar=document.getElementById('btningresar');
 btningresar.addEventListener("click",()=>{
 pagina1.style.display="none";
@@ -8,6 +10,8 @@ pagina2.style.display="block";
 let textoDescifrado;
 let desplazamiento;
 let textoCifrado;
+let resultadoCifrado;
+let resultadoDescifrado;
 
 
 document.getElementById('btncifrar').addEventListener("click",()=>{
