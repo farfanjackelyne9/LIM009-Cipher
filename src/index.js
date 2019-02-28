@@ -1,6 +1,6 @@
 /* Acá va tu código */
-let pagina1;
-let pagina2;
+const pagina1=document.getElementById("pagina1");
+const pagina2=document.getElementById("pagina2");
 const btningresar=document.getElementById('btningresar');
 btningresar.addEventListener("click",()=>{
 pagina1.style.display="none";
