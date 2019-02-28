@@ -1,4 +1,3 @@
-/* Acá va tu código */
 const pagina1=document.getElementById("pagina1");
 const pagina2=document.getElementById("pagina2");
 const btningresar=document.getElementById('btningresar');
