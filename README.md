@@ -2,6 +2,8 @@
 
 SafeMessage es una app que te permite descifrar y cifrar cualquier mensaje a través de la cantidad de desplazamientos(_offset_) deseada. Esta inspirada en el cifrado Caesar. El cifrado Caesar es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
 
+![SafeMessage](https://i.ibb.co/QnvS7NC/Captura.png)
+
 Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
 
 - La letra A se cifra como D.
