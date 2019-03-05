@@ -27,3 +27,20 @@ resultadoDescifrado=cipher.decode(textoCifrado,desplazamiento);
 document.getElementById('descifrado').value=resultadoDescifrado.trim();
 
 })
+document.getElementById("copy1").addEventListener("click",() => {
+    let copiado1 = document.getElementById("descifrado");
+    copiado1.select();
+    document.execCommand('copy');
+});
+document.getElementById("copy2").addEventListener("click",() => {
+    let copiado2 = document.getElementById("cifrado");
+    copiado2.select();
+    document.execCommand('copy');
+});
+document.getElementById("btnlimpiar1").addEventListener("click",() => {
+    document.getElementById("descifrado").value = "";
+});
+
+document.getElementById("btnlimpiar2").addEventListener("click",() => {
+    document.getElementById("cifrado").value = ""
+});

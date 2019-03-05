@@ -9,10 +9,11 @@
 }
 body{
   background: url(https://www.wallpaperup.com/uploads/wallpapers/2014/02/20/261734/ca302db246b8cbc9035f03ecea233a22.jpg);
+  
 }
 h1 {
-  font-size: 50px;
-  font-family: 'Alfa Slab One', 'Fascinate Inline', cursive;
+  font-size: 75px;
+  font-family: fantasy;
 	color: #ecf0f1;
 	text-align: center;
   margin: 5rem 0 3rem 0;
@@ -20,7 +21,14 @@ h1 {
 p {
   color: white;
   font-size: 25px;
-  font-family:"Roboto Slab";
+  font-family: serif;
+  line-height: 100%;
+  width: 600px;
+  margin-left: 10px;
+  background-color:rgba(0, 0, 0, 0.452);
+  padding:10px 10px;
+  border-radius:10px;
+  
 }
 button{
   background-color:black;
@@ -31,19 +39,27 @@ button{
    width:200px;
 }
 #number{
-  background-color: #F0F8FF;
-  color:black;
+  background-color:rgba(48, 51, 54, 0.685);
+  color:white;
   border-radius:10px;
   padding:10px 10px;
   width:250px;
+  text-align: center;
 }
 textarea{
-  background-color: #F0F8FF;
-  color:black;
+  background-color:#58515167 ;
+  color: white;
   border-radius:10px;
-  padding:10px 10px;
-  width:250px;
 }
 h3{
    font-size: 20px;
 }
+textarea::placeholder {
+  color:#7c6060;
+  font-size: 20px;
+  text-align: center;
+  }
+  #caja1{
+    margin-top: 20px;
+  }
+
